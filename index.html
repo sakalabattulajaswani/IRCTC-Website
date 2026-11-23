@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IRCTC</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+
+        <div class="logo">
+            <img src="https://www.irctc.co.in/nget/assets/images/irctc_logo.png" alt="IRCTC Logo">
+            <h2>IRCTC</h2>
+        </div>
+
+        <ul class="nav-links">
+
+            <!-- HOME DROPDOWN -->
+            <li>
+                <details class="dropdown">
+                    <summary>Home</summary>
+                    <ul class="dropdown-menu">
+                        <li><a href="https://www.irctc.co.in/nget" target="_blank">Home</a></li>
+                        <li><a href="https://www.irctc.com/" target="_blank">About IRCTC</a></li>
+                        <li><a href="https://contents.irctc.co.in/en/ContactUsEn.html" target="_blank">Contact Us</a></li>
+                        <li><a href="https://equery.irctc.co.in/" target="_blank">Help & Support</a></li>
+                    </ul>
+                </details>
+            </li>
+
+            <!-- LOYALTY DROPDOWN -->
+            <li>
+                <details class="dropdown">
+                    <summary>Loyalty</summary>
+                    <ul class="dropdown-menu">
+                        <li><a href="https://contents.irctc.co.in/en/AboutLoyalty.html" target="_blank">About IRCTC Loyalty Program</a></li>
+                        <li><a href="https://contents.irctc.co.in/en/AboutLoyalty.html" target="_blank">Compare Co-brand Cards</a></li>
+                        <li><a href="https://www.sbicard.com/" target="_blank">IRCTC SBI Credit Card</a></li>
+                        <li><a href="https://www.bobfinancial.com/" target="_blank">IRCTC BOB Credit Card</a></li>
+                        <li><a href="https://www.hdfcbank.com/" target="_blank">IRCTC HDFC Credit Card</a></li>
+                        <li><a href="https://www.rblbank.com/" target="_blank">IRCTC RBL Credit Card</a></li>
+                        <li><a href="https://www.irctc.co.in/nget" target="_blank">Add Loyalty Account</a></li>
+                    </ul>
+                </details>
+            </li>
+
+            <!-- MEALS DROPDOWN -->
+            <li>
+                <details class="dropdown">
+                    <summary>Meals</summary>
+                    <ul class="dropdown-menu">
+                        <li><a href="https://www.irctc.co.in/nget" target="_blank">Book Food – E-Pantry</a></li>
+                        <li><a href="https://www.ecatering.irctc.co.in/" target="_blank">Order Food - E-Catering</a></li>
+                        <li><a href="https://www.ecatering.irctc.co.in/" target="_blank">Cooked Food Menu</a></li>
+                    </ul>
+                </details>
+            </li>
+
+            <!-- OTHER SERVICES DROPDOWN -->
+            <li>
+                <details class="dropdown">
+                    <summary>Other Services</summary>
+                    <ul class="dropdown-menu">
+                        <li><a href="https://www.irctc.co.in/nget" target="_blank">IRCTC-iPAY</a></li>
+                        <li><a href="https://www.bus.irctc.co.in/" target="_blank">BUSES</a></li>
+                        <li><a href="https://www.air.irctc.co.in/" target="_blank">FLIGHTS</a></li>
+                        <li><a href="https://www.hotel.irctctourism.com/" target="_blank">HOTELS</a></li>
+                        <li><a href="https://www.irctctourism.com/" target="_blank">HOLIDAYS</a></li>
+                        <li><a href="https://www.irctc.co.in/nget" target="_blank">e-Wheelchair</a></li>
+                        <li><a href="https://contents.irctc.co.in/" target="_blank">Promotions</a></li>
+                    </ul>
+                </details>
+            </li>
+
+        </ul>
+
+        <div class="nav-buttons">
+            <a href="https://www.irctc.co.in/nget" class="login-btn" target="_blank">Login</a>
+            <a href="https://www.irctc.co.in/nget" class="register-btn" target="_blank">Register</a>
+        </div>
+
+    </nav>
+</header>
+
+<!-- MAIN BODY SECTION -->
+<main>
+
+    <section class="booking-section">
+
+        <div class="booking-left">
+            <div class="booking-card">
+
+                <!-- TOP BUTTONS -->
+                <div class="booking-tabs">
+                    <button class="tab-btn active">PNR STATUS</button>
+                    <button class="tab-btn">CHARTS / VACANCY</button>
+                </div>
+
+                <h2>BOOK YOUR TICKETS</h2>
+
+                <p class="card-description">
+                    Plan your journey with Indian Railways
+                </p>
+
+                <!-- BOOKING FORM -->
+                <form class="booking-form">
+
+                    <div class="form-group">
+                        <label>FROM</label>
+                        <input type="text" placeholder="Enter source station" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>TO</label>
+                        <input type="text" placeholder="Enter destination station" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>JOURNEY DATE</label>
+                        <input type="date" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>CLASS</label>
+                        <select>
+                            <option>All Classes</option>
+                            <option>AC First Class (1A)</option>
+                            <option>AC 2 Tier (2A)</option>
+                            <option>AC 3 Tier (3A)</option>
+                            <option>Sleeper (SL)</option>
+                            <option>Chair Car (CC)</option>
+                            <option>Second Sitting (2S)</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label>QUOTA</label>
+                        <select>
+                            <option>General</option>
+                            <option>Tatkal</option>
+                            <option>Premium Tatkal</option>
+                            <option>Ladies</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label>CONCESSION TYPE</label>
+                        <select>
+                            <option>No Concession</option>
+                            <option>Person with Disability</option>
+                            <option>Railway Pass</option>
+                            <option>Other Eligible Concession</option>
+                        </select>
+                    </div>
+
+                    <div class="search-container">
+                        <button type="submit" class="search-btn">
+                            SEARCH TRAINS
+                        </button>
+                    </div>
+
+                </form>
+
+            </div>
+        </div>
+
+        <div class="booking-right">
+            <h1>INDIAN RAILWAYS</h1>
+            <h2>Connecting India, Connecting Hearts</h2>
+            <p>
+                Experience the beauty of India with Indian Railways.
+                Your journey begins here!
+            </p>
+        </div>
+
+    </section>
+
+</main>
+
+<!-- SERVICES SECTION -->
+<section class="services-section">
+
+    <div class="services-heading">
+        <h2>Have you not found the right one?</h2>
+        <p>Find a service suitable for you here.</p>
+        <hr>
+    </div>
+
+    <div class="services-container">
+
+        <a href="https://www.air.irctc.co.in/" target="_blank" class="service-card">
+            <i class="fa-solid fa-plane"></i>
+            <h3>FLIGHTS</h3>
+        </a>
+
+        <a href="https://www.hotel.irctctourism.com/" target="_blank" class="service-card">
+            <i class="fa-solid fa-hotel"></i>
+            <h3>HOTELS</h3>
+        </a>
+
+        <a href="https://raildrishti.indianrailways.gov.in/" target="_blank" class="service-card">
+            <i class="fa-solid fa-arrow-trend-up"></i>
+            <h3>RAIL DRISHTI</h3>
+        </a>
+
+        <a href="https://www.ecatering.irctc.co.in/" target="_blank" class="service-card">
+            <i class="fa-solid fa-utensils"></i>
+            <h3>E-CATERING</h3>
+        </a>
+
+        <a href="https://www.bus.irctc.co.in/" target="_blank" class="service-card">
+            <i class="fa-solid fa-bus"></i>
+            <h3>BUS</h3>
+        </a>
+
+        <a href="https://www.irctctourism.com/" target="_blank" class="service-card">
+            <i class="fa-solid fa-umbrella-beach"></i>
+            <h3>HOLIDAY PACKAGES</h3>
+        </a>
+
+        <a href="https://www.irctctourism.com/" target="_blank" class="service-card">
+            <i class="fa-solid fa-train"></i>
+            <h3>TOURIST TRAIN</h3>
+        </a>
+
+        <a href="https://www.irctctourism.com/" target="_blank" class="service-card">
+            <i class="fa-solid fa-mountain"></i>
+            <h3>HILL RAILWAYS</h3>
+        </a>
+
+        <a href="https://www.irctctourism.com/" target="_blank" class="service-card">
+            <i class="fa-solid fa-train-subway"></i>
+            <h3>CHARTER TRAIN</h3>
+        </a>
+
+        <a href="https://www.irctctourism.com/" target="_blank" class="service-card">
+            <i class="fa-solid fa-images"></i>
+            <h3>GALLERY</h3>
+        </a>
+
+    </div>
+
+</section>
+
+<!-- HOLIDAYS SECTION -->
+<section class="holidays-section">
+
+    <div class="holidays-heading">
+        <h2>HOLIDAYS</h2>
+        <p>Explore amazing holiday experiences with IRCTC</p>
+    </div>
+
+    <div class="holidays-container">
+
+        <!-- MAHARAJAS EXPRESS -->
+        <div class="holiday-card">
+            <img src="https://www.irctc.co.in/nget/assets/images/exterior.jpg"
+                 alt="Maharajas Express">
+
+            <div class="holiday-content">
+                <h3>Maharajas' Express</h3>
+                <p>
+                    Redefining Royalty, Luxury and Comfort, Maharajas' Express
+                    takes you on a sojourn to the era of bygone stately
+                    splendour of princely states. Sylvan furnishings,
+                    elegant ambience and modern amenities are amalgamated
+                    for an Experience Unsurpassed. It has been a winner of
+                    World's Leading Luxury Train by World Travel Awards
+                    consecutively for the last six years.
+                </p>
+
+                <a href="http://www.the-maharajas.com/" target="_blank">
+                    Read More →
+                </a>
+            </div>
+        </div>
+
+        <!-- INTERNATIONAL PACKAGES -->
+        <div class="holiday-card">
+            <img src="https://www.irctc.co.in/nget/assets/images/Thailand.jpg"
+                 alt="International Packages">
+
+            <div class="holiday-content">
+                <h3>International Packages</h3>
+                <p>
+                    Best deals in International Holiday packages,
+                    handpicked by IRCTC, for Thailand, Dubai, Sri Lanka,
+                    Hong Kong, China, Macau, Bhutan, Nepal, U.K., Europe,
+                    USA and Australia. Packages include sightseeing,
+                    meals, visa charges and overseas medical insurance
+                    for a hassle-free experience.
+                </p>
+
+                <a href="https://www.irctctourism.com/#/tourpacakage_search?searchKey=&tagType=&travelType=International&sector=All"
+                   target="_blank">
+                    Read More →
+                </a>
+            </div>
+        </div>
+
+        <!-- DOMESTIC AIR PACKAGES -->
+        <div class="holiday-card">
+            <img src="https://www.irctc.co.in/nget/assets/images/Kashmir.jpg"
+                 alt="Domestic Air Packages">
+
+            <div class="holiday-content">
+                <h3>Domestic Air Packages</h3>
+                <p>
+                    Be it the spiritual devotee seeking blessings of
+                    Tirupati, Shirdi or Mata Vaishno Devi, or the leisure
+                    traveller wanting to explore the Blue Mountains of
+                    North East, Rajasthan, Ladakh, Himalayas, serene lakes
+                    or picturesque islands, IRCTC has it all.
+                    Discover India through IRCTC!
+                </p>
+
+                <a href="https://www.irctctourism.com/#/tourpacakage_search?searchKey=&tagType=&travelType=Domestic&sector=All"
+                   target="_blank">
+                    Read More →
+                </a>
+            </div>
+        </div>
+
+        <!-- BHARAT GAURAV TOURIST TRAIN -->
+        <div class="holiday-card">
+            <img src="https://www.irctc.co.in/nget/assets/images/Bharat_Gaurav.jpg"
+                 alt="Bharat Gaurav Tourist Train">
+
+            <div class="holiday-content">
+                <h3>Bharat Gaurav Tourist Train</h3>
+                <p>
+                    IRCTC operates Bharat Gaurav Tourist Train with
+                    AC III-Tier accommodation, specially designed to
+                    promote domestic tourism in India. It runs on
+                    various theme-based circuits covering pilgrimage
+                    and heritage destinations on 5 to 20 days trips,
+                    showcasing India's rich cultural heritage.
+                </p>
+
+                <a href="https://www.irctctourism.com/bharatgaurav"
+                   target="_blank">
+                    Read More →
+                </a>
+            </div>
+        </div>
+
+        <!-- RAIL TOUR PACKAGES -->
+        <div class="holiday-card">
+            <img src="https://www.irctc.co.in/nget/assets/images/Manali.jpg"
+                 alt="Rail Tour Packages">
+
+            <div class="holiday-content">
+                <h3>Rail Tour Packages</h3>
+                <p>
+                    IRCTC offers exclusive Rail Tour Packages with
+                    confirmed train tickets, sightseeing and meals
+                    for destinations like Nilgiri Mountains,
+                    Darjeeling, Kullu Manali, Kashmir, Gangtok,
+                    Mata Vaishno Devi, Rameswaram, Madurai, Shirdi
+                    and Tirupati. Holiday and land packages are
+                    also available.
+                </p>
+
+                <a href="https://www.irctctourism.com/#/tourpkgs"
+                   target="_blank">
+                    Read More →
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- FOOTER SECTION -->
+<footer class="main-footer">
+
+    <!-- SOCIAL MEDIA SECTION -->
+    <div class="social-footer">
+
+        <h2>Get Connected with us on social networks</h2>
+
+        <div class="social-icons">
+
+            <a href="https://www.facebook.com/IRCTCofficial/" class="social facebook" target="_blank">
+                <i class="fa-brands fa-facebook-f"></i>
+            </a>
+
+            <a href="https://www.whatsapp.com/" class="social whatsapp" target="_blank">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+
+            <a href="https://www.youtube.com/" class="social youtube" target="_blank">
+                <i class="fa-brands fa-youtube"></i>
+            </a>
+
+            <a href="https://www.instagram.com/" class="social instagram" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/" class="social linkedin" target="_blank">
+                <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+
+            <a href="https://telegram.org/" class="social telegram" target="_blank">
+                <i class="fa-brands fa-telegram"></i>
+            </a>
+
+            <a href="https://in.pinterest.com/" class="social pinterest" target="_blank">
+                <i class="fa-brands fa-pinterest-p"></i>
+            </a>
+
+            <a href="https://www.tumblr.com/" class="social tumblr" target="_blank">
+                <i class="fa-brands fa-tumblr"></i>
+            </a>
+
+            <a href="https://x.com/" class="social twitter" target="_blank">
+                <i class="fa-brands fa-x-twitter"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+    <!-- FOOTER LINKS SECTION -->
+    <div class="footer-links">
+
+        <!-- COLUMN 1 -->
+        <div class="footer-column">
+
+            <details>
+                <summary>IRCTC Trains</summary>
+                <a href="https://www.irctc.co.in/nget/train-search" target="_blank">Train Schedule</a>
+                <a href="https://www.irctc.co.in/nget/enquiry/PNR/PnrEnquiry.html" target="_blank">PNR Status</a>
+                <a href="https://www.irctc.co.in/nget/train-search" target="_blank">Train Between Stations</a>
+            </details>
+
+            <details>
+                <summary>General Information</summary>
+                <a href="https://indianrailways.gov.in/" target="_blank">About Indian Railways</a>
+                <a href="https://contents.irctc.co.in/en/" target="_blank">Rules and Regulations</a>
+                <a href="https://www.irctc.co.in/nget" target="_blank">Train Information</a>
+            </details>
+
+            <details>
+                <summary>Important Information</summary>
+                <a href="https://contents.irctc.co.in/en/PrivacyPolicy.html" target="_blank">Privacy Policy</a>
+                <a href="https://contents.irctc.co.in/en/Terms%20and%20conditions.pdf" target="_blank">Terms and Conditions</a>
+                <a href="https://contents.irctc.co.in/en/" target="_blank">User Guide</a>
+            </details>
+
+            <details>
+                <summary>Agents</summary>
+                <a href="https://www.irctc.co.in/" target="_blank">Agent Login</a>
+                <a href="https://www.irctc.co.in/" target="_blank">Agent Registration</a>
+            </details>
+
+            <details>
+                <summary>Enquiries</summary>
+                <a href="https://equery.irctc.co.in/" target="_blank">Customer Support</a>
+                <a href="https://contents.irctc.co.in/en/ContactUsEn.html" target="_blank">Contact Us</a>
+            </details>
+
+        </div>
+
+        <!-- COLUMN 2 -->
+        <div class="footer-column">
+
+            <details>
+                <summary>How To</summary>
+                <a href="https://contents.irctc.co.in/en/" target="_blank">How to Book Tickets</a>
+                <a href="https://contents.irctc.co.in/en/" target="_blank">How to Cancel Tickets</a>
+            </details>
+
+            <details>
+                <summary>IRCTC Official App</summary>
+                <a href="https://play.google.com/store/apps/details?id=cris.org.in.prs.ima" target="_blank">Download Android App</a>
+                <a href="https://apps.apple.com/in/app/irctc-rail-connect/id1386197253" target="_blank">Download iOS App</a>
+            </details>
+
+            <details>
+                <summary>Advertise with us</summary>
+                <a href="https://www.irctc.com/" target="_blank">Advertisement Services</a>
+            </details>
+
+            <details>
+                <summary>Refund Rules</summary>
+                <a href="https://contents.irctc.co.in/en/" target="_blank">Cancellation Rules</a>
+                <a href="https://equery.irctc.co.in/" target="_blank">Refund Status</a>
+            </details>
+
+            <details>
+                <summary>Person With Disability Facilities</summary>
+                <a href="https://www.irctc.co.in/nget" target="_blank">Special Facilities</a>
+            </details>
+
+        </div>
+
+        <!-- COLUMN 3 -->
+        <div class="footer-column">
+
+            <details>
+                <summary>E-Wallet</summary>
+                <a href="https://www.irctc.co.in/nget" target="_blank">About IRCTC E-Wallet</a>
+                <a href="https://www.irctc.co.in/nget" target="_blank">Register E-Wallet</a>
+            </details>
+
+            <details>
+                <summary>IRCTC Co-branded Card Benefits</summary>
+                <a href="https://www.sbicard.com/" target="_blank">SBI Credit Card</a>
+                <a href="https://www.bobfinancial.com/" target="_blank">BOB Credit Card</a>
+                <a href="https://www.hdfcbank.com/" target="_blank">HDFC Credit Card</a>
+            </details>
+
+            <details>
+                <summary>IRCTC-iPAY Payment Gateway</summary>
+                <a href="https://www.irctc.co.in/nget" target="_blank">Payment Information</a>
+            </details>
+
+            <details>
+                <summary>IRCTC Zone</summary>
+                <a href="https://www.irctc.com/" target="_blank">Railway Services</a>
+            </details>
+
+            <details>
+                <summary>DMRC Ticket Booking at IRCTC</summary>
+                <a href="https://www.irctc.co.in/nget" target="_blank">Metro Ticket Booking</a>
+            </details>
+
+        </div>
+
+        <!-- COLUMN 4 -->
+        <div class="footer-column">
+
+            <details>
+                <summary>For Newly Migrated Agents</summary>
+                <a href="https://www.irctc.co.in/" target="_blank">Agent Information</a>
+                <a href="https://www.irctc.co.in/" target="_blank">Registration Details</a>
+            </details>
+
+            <details>
+                <summary>Mobile Zone</summary>
+                <a href="https://www.irctc.co.in/nget" target="_blank">Mobile Applications</a>
+            </details>
+
+            <details>
+                <summary>Policies</summary>
+                <a href="https://contents.irctc.co.in/en/PrivacyPolicy.html" target="_blank">Privacy Policy</a>
+                <a href="https://contents.irctc.co.in/en/" target="_blank">Security Policy</a>
+            </details>
+
+            <details>
+                <summary>Ask Disha ChatBot</summary>
+                <a href="https://www.irctc.co.in/nget" target="_blank">Chat with Disha</a>
+            </details>
+
+            <details>
+                <summary>About us</summary>
+                <a href="https://www.irctc.com/" target="_blank">About IRCTC</a>
+                <a href="https://contents.irctc.co.in/en/ContactUsEn.html" target="_blank">Contact Information</a>
+            </details>
+
+        </div>
+
+        <!-- COLUMN 5 -->
+        <div class="footer-column">
+
+            <h3>Help & Support</h3>
+
+            <details>
+                <summary>E-Pantry</summary>
+                <a href="https://www.irctc.co.in/nget" target="_blank">Order Food</a>
+                <a href="https://www.ecatering.irctc.co.in/" target="_blank">Food Services</a>
+            </details>
+
+        </div>
+
+    </div>
+
+    <!-- BOTTOM FOOTER -->
+    <div class="footer-bottom">
+
+        <div class="payment-logos">
+
+            <span class="payment-logo verisign">VeriSign</span>
+
+            <span class="payment-logo mastercard">
+                MasterCard.<br>SecureCode
+            </span>
+
+            <span class="payment-logo amex">
+                AMERICAN EXPRESS<br>SafeKey
+            </span>
+
+            <span class="payment-logo visa">
+                Verified by<br>VISA
+            </span>
+
+            <span class="payment-logo rupay">RuPay</span>
+
+            <span class="payment-logo irctc">irctctourism.com</span>
+
+            <span class="payment-logo cris">CRIS</span>
+
+        </div>
+
+        <div class="copyright">
+
+            <p>Copyright © 2026 - www.irctc.co.in. All Rights Reserved</p>
+
+            <p>Designed and Hosted by <strong>CRIS</strong></p>
+
+            <h4>Compatible Browsers</h4>
+
+        </div>
+
+    </div>
+
+</footer>
+
+</body>
+</html>
